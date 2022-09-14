@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Crimson+Text&family=Raleway:ital,wght@0,300;0,400;1,400&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #C26DBC;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+main {
+  padding: 2rem 3.5rem;
+}
+
+.card {
+  background-color: #C8F4F9;
+  border: 1px solid #3CACAE;
+  padding: 1.2rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+.lineInput {
+  display: grid;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.8rem;
+  border: 1px solid #3CACAE;
+  border-radius: 3px;
+  outline: 0;
+}
+
+button {
+  border: 0;
+  border-radius: 3px;
+  padding: 0.8rem;
+  width: 5rem;
+  outline: 0;
+  font-weight: bold;
+  background-color: #C26DBC;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #EEB5EB;
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #3CACAE;
+  width: 100%;
+}
+
+table th {
+  background-color: #C8F4F9;
+}
+
+table th,
+td {
+  text-align: left;
+  padding: 1px 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+i {
+  padding: 0 5px;
+  cursor: pointer;
+}

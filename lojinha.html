@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lojinha</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/a97a1bedf2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Lojinha 1.0</h1>
+  </header>
+  <main>
+    <div class="title">
+      <h2>Produtos</h2>
+      <span>Lista de Produtos</span>
+    </div>
+
+    <div class="card">
+      <div class="lineInput">
+        <label>Produto</label>
+        <input type="text" id="product" placeholder="Nome do Produto">
+      </div>
+
+      <div class="lineInput">
+        <label>Valor</label>
+        <input type="number" id="value" placeholder="Valor do Produto">
+      </div>
+
+      <button onclick="product.save()" id="btnSave"> Salvar</button>
+      <button onclick="product.cancel()">Cancelar</button>
+    </div>
+
+    <div class="content">
+      <table border="1">
+        <thead>
+          <th class="center">ID</th>
+          <th>Nome</th>
+          <th>Valor</th>
+          <th>Ações</th>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
